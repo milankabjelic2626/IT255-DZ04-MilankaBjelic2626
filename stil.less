@@ -1,0 +1,188 @@
+@bela: #fff;
+@bez: #fffcf2;
+@zelena: #013f28;
+@bordo: #660202;
+@crvena: #840000;
+@zelenaSenka: 0px 0px 4px 4px @zelena;
+@bezSenka: 0px 0px 4px 4px @bez;
+
+body{
+    background: url("slikeZaSajt/backgg.jpg") repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+#container{
+    width: 98%;
+    height: 300px;
+    margin: 30px auto 30px auto;
+    background: @bez;
+    -webkit-box-shadow: @bezSenka;
+    border-radius: 20px;
+}
+
+#logo {
+    float: left;
+    img
+    {
+	height: 280px;
+	margin-top:10px;
+	margin-left:10px;
+    border-radius: 10px;
+    }
+}
+
+#slikaRight > img{
+    height: 280px;
+    width: 680px;
+	margin: 10px;
+    border-radius: 10px;
+}
+
+.menuItem{
+	height: 60%;
+    width: 13%;
+	color: @bez;
+	font-size: 23px;
+	display: inline-block;
+	background: @zelena;
+    padding: 5px;
+	line-height: 45px;
+	font: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover
+    {
+    border-radius: 25px;
+	background: @bez;
+    -webkit-text-fill-color: @zelena;
+    -webkit-box-shadow: 0px 0px 4px 4px @bez;
+    }
+}
+
+#mainMenu{
+    margin: 10 auto;
+    width: 80%;
+	background: @zelena;
+    height: 60px;
+	border-radius:10px;
+    text-align: center;
+}
+
+#container2{
+    float: center;
+    margin-left: 180px;
+    display: inline-flex;
+}
+
+#probajSpec{
+    margin-top: 20px;
+    margin-left: 125px;
+    width: 75%;
+    text-align: left;
+    border-top-width: 3px;  
+    border-right-width: 15px;  
+    border-bottom-width: 3px;  
+    border-left-width: 15px;  
+    border-style: solid;  
+    border-color: @zelena;
+    font-size: 21px; 
+    -webkit-text-fill-color: @zelena;
+    padding: 10px;
+    border-radius: 10px;
+    background: @bez;
+    -webkit-box-shadow: @zelenaSenka;
+}
+
+.slika { 
+    margin: 20px;
+    width: 38%;
+    text-align: left;
+    border-top-width: 3px;  
+    border-right-width: 15px;  
+    border-bottom-width: 3px;  
+    border-left-width: 15px;  
+    border-style: solid;
+    border-color: @zelena;
+    font-size: 23px; 
+    -webkit-text-fill-color: @zelena;
+    padding: 10px;
+    border-radius: 10px;
+    background: @bez;
+    -webkit-box-shadow: @zelenaSenka;
+    p{  
+    margin: 10px;
+    text-align: left;
+    border-top-width: 3px;  
+    border-right-width: 6px;  
+    border-bottom-width: 3px;  
+    border-left-width: 6px;  
+    font-size: 21px; 
+    -webkit-text-fill-color: @bordo;
+    padding: 10px;
+    border-radius: 10px;
+        img
+        {
+            height: 300px;
+            width: 300px;
+            margin-top:10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 10px;
+            border-style: solid; 
+            border-color: @bela; 
+            -webkit-box-shadow: @bezSenka;
+            .fb 
+            {
+                height: 80px;
+                margin: 5px;
+                border-radius: 10px;
+                -webkit-box-shadow: @bezSenka;
+            }
+        }
+        .posetiteNas
+        {
+            margin: 15px;  
+            font-size: 50px; 
+            -webkit-text-fill-color: @crvena;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: @bez;
+        }
+        #container3
+        {
+            width: 60%;
+            margin-left: 260px;
+            border-top-width: 3px;  
+            border-right-width: 6px;  
+            border-bottom-width: 3px;  
+            border-left-width: 6px;  
+            font-size: 24px; 
+            -webkit-text-fill-color: @bordo;
+            padding: 5px;
+            border-radius: 10px;
+            float: center;
+            text-align: center; 
+            border-style: solid;
+            border-color: @zelena;
+            background: @bez;
+            -webkit-box-shadow: @zelenaSenka;
+        }
+    }
+}
+
+#container4{
+    float: center;
+    margin-left: 180px;
+    display: inline-flex;
+}
+
+#down{
+    margin-left: 5;  
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    float: center;
+}
+
